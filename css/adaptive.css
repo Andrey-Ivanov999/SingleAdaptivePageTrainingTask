@@ -1,0 +1,333 @@
+@media  (max-width:1200px){
+    .header-logo{
+margin-left: 100px;
+    }
+    .footer-header{
+        max-width: 800px;
+    }
+    .headrer-logo{
+        margin-right: 0px;
+    }
+
+    h2{margin-left: 125px;}
+    .menu-list {
+        margin-left: 150px;
+    }
+    .menu-link a {
+     font-size: 16px;
+    }
+    .comments{
+        margin-left: 80px;
+    }
+    .header-pricing{
+        margin-left: 40%;
+
+    }
+    .pricing-element-1,.pricing-element-2,.pricing-element-3{
+        width: 270px;
+    }
+    .pricing-block{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .testimonial{
+        margin-left: 10px;
+    }
+    .services-elements{
+        max-width: 900px;
+        overflow: hidden;
+        position: relative;
+    }
+    .services-elements img{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    }
+    .our{
+        margin-left: 90px;
+    }
+    .galery-pictures{
+        margin-right: 300px;
+    }
+    .text-footer{
+      margin-left: 30px;  
+    }
+    .footer-logo{
+        margin-bottom: 80px;
+        margin-right: 100px;
+    }
+    .button-services{
+        margin-right: 30px;
+    }
+}
+@media (max-width:992px){
+    .header-logo{
+        margin-left: 50px;
+    }
+    .header-logo>img{
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .menu-link {
+        padding: 10px;
+    }
+    .menu-link a {
+        font-size: 14px;
+    }
+    .menu-list{
+        margin-left: 30px;
+    }
+    .text{
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    h1{
+        font-size: 72px;
+        margin-bottom: 30px;
+    }
+    p{
+        padding-bottom: 80px;
+        font-size: 16px;
+    }
+    .element-1{
+        margin-left: 55px;
+    }
+    .element-3 p{
+        margin: top 2px; ;
+    }
+    .element-4 p{
+        margin-top: 8px;
+    }
+    .our{
+        margin:30px 0 40px 90px;
+        font-size: 40px;
+    }
+    .services-elements-footer{
+        height: 120px;
+
+    }
+    .services-elements p{
+        font-size: 14px;
+    }
+    .services-elements img{
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .services-elements>p{
+        padding-bottom: 40px;
+    }
+    .text-footer{
+        font-size: 14px;
+
+    }
+    .button-services{
+        font-size: 16px;
+        width: 200px;
+        height: 60px;
+    }
+    .bg h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .pricing-block div{
+        width: 180px;
+        font-size: 14px;
+    }
+    .pricing-block span{
+        font-size: 40px;
+    }
+    .pricing-block button{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .footer-header{
+        max-width: 550px;
+    }
+    .footer-header h2{
+        font-size: 36px;
+    }
+    .comments{
+        margin-left: 60px;
+    }
+    .galery-pictures img {
+        max-width:20%;
+        max-height:20%;
+    }
+    .footer-text{
+
+        padding-bottom: 100px;
+    }
+    .link{
+        font-size: 16px;
+    }
+}
+@media (max-width:767px){
+    .header-logo>img{
+        max-width: none;
+    }
+    .nav{}
+    .nav span{
+        display: inline;
+    }
+    .menu-list{
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    .our{
+        display: block;
+        z-index: 9999;
+    }
+    .menu-list.active{
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.4s ease 0s;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 57%;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0px 30px 30px;
+        background-color: rgba(250, 245, 245, 0.966);
+		overflow: auto;   
+    }
+    .c-hamburger {
+     display: block;
+     position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    font-size: 0;
+    text-indent: -9999px;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    z-index: 10;
+    }
+
+    .c-hamburger span {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 10px;
+        right: 10px;
+        height: 4px;
+        background: #000;
+    }
+    .c-hamburger span::before, .c-hamburger span::after {
+        height: 4px;
+    }    
+    .text {
+        margin-left: 20px;
+    }
+    .text h1{
+        font-size: 40px;
+    }
+    .text p{
+        font-size: 12px;
+    }
+    .our{
+        margin: 40px 0 40px 0;
+        text-align: center;
+        font-size: 28px;
+    }
+    .services-elements{
+        display: flex;
+        justify-content:space-around;
+    }
+    .element-1,.element-3{
+        margin-left: 40px;
+    }
+    .text-footer{
+        margin-left: 15px;
+        margin-top: 0;
+        font-size: 12px;
+    }
+.button-services{
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+}
+.bg h2{
+    font-size: 36px;
+}
+.header-pricing{
+    margin-left: 32%;
+}
+.pricing-block{
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pricing-block div{
+    border-radius: 1px;
+    margin-top: 20px;
+}
+.pricing-block button{
+    margin-bottom: 20px;
+}
+.pricing-element-3{
+    margin-bottom: 10px;
+}
+
+.footer-header{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer-header>h2{
+    margin: 10px 5px 10px 5px;
+    font-size: 30px;
+}
+.comments{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-text{
+    padding-bottom: 20px;
+}
+.footer{
+    display: block;
+}
+.gallery-pictures{
+max-width: 100%;
+}
+.link{
+    padding-top: 20px;
+    margin: auto auto;
+}
+.footer-logo{
+    width: 90px;
+    margin-right:20px;
+    margin-top: 10px;
+}
+.text-footer{
+    font-size: 10px;
+    padding-bottom: 60px;
+}
+}
+@media(max-width:340px){
+    .services-elements div{
+        margin: 0;
+    }
+    .button-services{
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        margin-right: 15px;
+    }
+
+}
