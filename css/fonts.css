@@ -1,53 +1,20 @@
-@font-face{
-font-family: "Montserrat-Light";
-src:url(../fonts/Montserrat-Light.ttf);
-font-style: normal;
-font-weight: normal;
-
-}
-
-@font-face{
-font-family: "Raleway";
-src:url(../fonts/Raleway-Medium.ttf);
-font-style: normal;
-font-weight: normal;
-
-}
-
-@font-face{
-font-family: "Raleway-ExtraBold";
-src:url(../fonts/Raleway-ExtraBold.ttf);
-font-style: normal;
-font-weight: normal;
-
-}
-
-@font-face{
-font-family: "Raleway-SemiBold";
-src:url(../fonts/Raleway-SemiBold.ttf);
-font-style: normal;
-font-weight: normal;
-
-}
-@font-face{
+@font-face {
 font-family: "Montserrat-Regular";
 src:url(../fonts/Montserrat-Regular.ttf);
 font-style: normal;
 font-weight: normal;
-
 }
-@font-face{
+
+@font-face {
 font-family: "Montserrat-Bold";
-src:url(../fonts/Montserrat-Regular.ttf);
+src:url(../fonts/Montserrat-Bold.ttf);
 font-style: normal;
-font-weight: normal;
-
+font-weight: bold;
 }
 
-@font-face{
+@font-face {
 font-family: "PTSerif-Regular";
 src:url(../fonts/PTSerif-Regular.ttf);
 font-style: normal;
 font-weight: normal;
-
 }
